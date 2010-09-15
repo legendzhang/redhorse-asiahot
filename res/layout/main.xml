@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ViewFlipper android:id="@+id/ViewFlipper01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="3">
+		<ImageView android:id="@+id/ImageView01"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"></ImageView>
+		<ImageView android:id="@+id/ImageView02"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"></ImageView>
+		<ImageView android:id="@+id/ImageView03"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"></ImageView>
+	</ViewFlipper>
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:layout_height="60dp"
+		android:layout_weight="1">
+		<Button android:text="打开" android:id="@+id/Button01"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="关闭" android:id="@+id/Button02"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="列表" android:id="@+id/Button03"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+	</LinearLayout>
+</LinearLayout>
